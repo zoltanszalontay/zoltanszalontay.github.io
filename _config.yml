@@ -21,8 +21,14 @@ sass:
   sass_dir: _sass
   style: compressed
 
+<<<<<<< HEAD
 # Exclude from processing.
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+=======
+exclude: [node_modules, .gulpfile.js, package.json, docs, vendor/bundle, _sass]
+
+theme: jekyll-theme-time-machine
+>>>>>>> 4cabaf33cc5108dd2b648bf77042aa1f199a201f

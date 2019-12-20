@@ -26,7 +26,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-=======
-exclude: [node_modules, .gulpfile.js, package.json, docs, vendor/bundle, _sass]
 
 theme: jekyll-theme-time-machine

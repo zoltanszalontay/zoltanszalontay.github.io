@@ -1,84 +1,66 @@
 ---
 layout: default
 ---
-<article class="container" itemscope itemtype="https://schema.org/BlogPosting">
-
-    <!-- Post Title -->
-    <section class="row">
-        <div class="col-12">
-            <h1 itemprop="name headline">{{ page.title }}</h1>
-	</div>
-    </section>
-    
-    <section class="row mt-2 mb-3">
-        <div class="col-auto">
-            <img class="img-fluid" style="width: 52px;" src="{{ site.url }}/assets/images/Mark.jpg" />
-	</div>
-
-        <div class="col pl-0">
-	    {% if page.author %}
-	    <div class="small text-muted text-uppercase font-weight-bolder" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ page.author }}</span></div>
-	      {% endif %}
-	    
-            <div><time class="small text-muted" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></div>
-        </div>
-    </section>
-    <!-- End Post Title -->
-
-    <!-- Main Content and Sidebar Container -->
-    <section class="row sticky-container" itemprop="articleBody">
-
-        <!-- Main Content -->
-        <div class="col-12 col-lg-9">
-
-            <!-- Video Thumb -->
-            {% if page.videothumb %}
-	    <div class="embed-responsive embed-responsive-16by9">
-	        <iframe class="embed-responsive-item" src="{{ page.videothumb }}" allowfullscreen></iframe>
-	    </div>
-            {% endif %}
-            <!-- End Video Thumb -->
-
-            <!-- Post Content -->
-            <section class="row" itemprop="articleBody">
-                <div class="col-12">
-	            {{ content }}
-                </div>
-            </section>
-
-            <!-- Social Share -->
-            <section class="row">
-                <div class="col-12 text-right mb-4">
-                    <span class="small font-weight-bolder text-uppercase">Share this article!</span>
-	            {% include social-share.html %}
-                </div>
-            </section>
-        </div>
-        <!-- End Main Content -->
-
-        <!-- Sidebar -->
-        <div class="d-none d-lg-block d-xl-block col-lg-3 pl-5">
-            {% include sidebar.html %}
-        </div>
-        <!-- End Sidebar -->
-    </section>
-    <!-- End Main Content and Sidebar Container -->
-    
-</article>
-
-{% if site.disqus %}
-<section class="container">
-    <section class="row">
-        <div id="disqus_thread" class="col-12"></div>
-        <script type="text/javascript">
-            var disqus_shortname = '{{ site.disqus }}';
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </section>
+<!-- page title -->
+<section class="page-title bg-primary position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white font-tertiary">Blogs</h1>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+  <img src="{{ site.baseurl }}/assets/images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-pink-round.png" alt="illustrations" class="bg-shape-2">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/dots-cyan.png" alt="illustrations" class="bg-shape-3">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-orange.png" alt="illustrations" class="bg-shape-4">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-yellow.png" alt="illustrations" class="bg-shape-5">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-6">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="bg-shape-7">
 </section>
-{% endif %}
+<!-- /page title -->
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="font-tertiary mb-5">{{ page.title | escape }}</h3>
+        <p class="font-secondary">Published on {{ page.date | date: '%b %d, %Y' }} by <span class="text-primary">{{ page.author }}</span
+            class="text-primary"> on {% for tag in page.tags %}<span>{{ tag }} </span>{% endfor %}</p>
+        <div class="content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% if site.data.settings.disqus-identifier %} {% include disqus-comments.html %} {% endif %}
+
+<!-- blog -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Similar Stories</h2>
+      </div>
+      {% for post in site.posts offset:0 limit:3 %}
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/blog/{{ post.image }}" alt="{{ post.title }}">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="{{ post.url | relative_url }}">Amazon increase income 1.5 Million</a>
+            </h4>
+            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et
+              dolore magna aliqua.</p>
+            <a href="{{ post.url | relative_url }}" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- /blog -->

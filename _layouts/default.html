@@ -1,44 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    {% include head.html %}
-    <body>
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N9XNNB9"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
 
-        {% include header.html %}
+{% include head.html %}
 
-        {{ content }}
+<body>
 
-        {% include footer.html %}
+  {% if site.google-analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+  
+  {% include header.html %}
 
-	<!-- Bootstrap 4 and its dependencies -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<!-- End Bootstrap 4 and its dependencies -->
+  {{ content }}
 
-	<!-- Syntax highlight -->
-	<script src="{{ "/assets/highlight/highlight.pack.js" | prepend: site.baseurl | prepend: site.url }}"></script>
-	<script>hljs.initHighlightingOnLoad();</script>
-	<!-- End Syntax highlight -->
+  {% include contact-section.html %}
+  
+  {% include footer.html %}
 
-	<!-- Sticky Sidebar -->
-	<script src="/assets/js/sticky-kit.min.js"></script>
-	<!-- End Sticky Sidebar -->
-	
-	<!-- Custom JS -->
-	<script src="/assets/js/app.js"></script>
-	<!-- End Custom JS -->
-	
-	<!-- Mailchimp -->
-        <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"ced6e070ab6dca9ddc1f65334","lid":"3983723c21"}) })</script>
-	<!-- End Mailchimp -->
+  <!-- jQuery -->
+  <script src="{{ site.baseurl }}/assets/plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="{{ site.baseurl }}/assets/plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- slick slider -->
+  <script src="{{ site.baseurl }}/assets/plugins/slick/slick.min.js"></script>
+  <!-- filter -->
+  <script src="{{ site.baseurl }}/assets/plugins/shuffle/shuffle.min.js"></script>
 
-	<!-- Google platform.js -->
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
-	<!-- End Google platform.js -->
+  <!-- Main Script -->
+  <script src="{{ site.baseurl }}/assets/js/script.js"></script>
+</body>
 
-    </body>
 </html>

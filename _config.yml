@@ -23,3 +23,5 @@ plugins:
     - jekyll-sitemap
 
 exclude: [node_modules, .gulpfile.js, package.json, docs, vendor/bundle, _sass]
+
+theme: jekyll-theme-hacker

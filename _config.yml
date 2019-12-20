@@ -24,4 +24,4 @@ plugins:
 
 exclude: [node_modules, .gulpfile.js, package.json, docs, vendor/bundle, _sass]
 
-theme: jekyll-theme-hacker
+theme: jekyll-theme-time-machine

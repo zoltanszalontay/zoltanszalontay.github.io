@@ -1,6 +1,6 @@
 title: truepositive.hu
 description: > # this means to ignore newlines until "baseurl:"
-    Hacking your way through web economy with 15 years of high-end consulting experience is super exciting. You've seen a lot, and there is a lot to learn. My site is all about this.
+    Finding technolgy solutions to business problems. Developing IoT Edge solutions and Machine Learning algorithms on the Edge.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://truepositive.hu" # the base hostname & protocol for your site
 permalink: "/:title/"

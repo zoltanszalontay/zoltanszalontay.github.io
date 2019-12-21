@@ -4,7 +4,7 @@ services:
         image: jekyll/jekyll:3.8.3
         container_name: takacsmark-dot-com
         environment:
-            - JEKYILL_ENV=docker
+            - JEKYLL_ENV=docker
         # working on one post - use incremental mode
         # command: jekyll serve --host 0.0.0.0 --drafts --config _config.yml,_config_dev.yml --watch --incremental
 

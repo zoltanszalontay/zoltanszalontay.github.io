@@ -4,16 +4,16 @@ title: Privacy policy
 permalink: /privacy-policy/
 ---
 
-Privacy policy of takacsmark.com.
+Privacy policy of truepositive.hu.
 
 This Website collects some Personal Data from its Users.
 
 **Owner and Data Controller:**  
-Savalera Kft.  
-Tóberek u. 8.  
-1112, Budapest  
+Zoltán Szalontay EV
+Egres út 73.
+2000, Szentendre  
 Hungary  
-Email: mark.takacs@savalera.com
+Email: zoltansz@truepositive.hu
 
 
 #### Types of Data collected
@@ -131,28 +131,6 @@ Place of processing: United States – [Privacy Policy](https://policies.google.
 This type of service makes it possible to manage a database of email contacts, phone contacts or any other contact information to communicate with the User.
 These services may also collect data concerning the date and time when the message was viewed by the User, as well as when the User interacted with it, such as by clicking on links included in the message.
 
-###### MailChimp (The Rocket Science Group, LLC.)
-
-MailChimp is an email address management and message sending service provided by The Rocket Science Group, LLC.
-
-Personal Data collected: email address, first name and last name.
-
-Place of processing: United States – [Privacy Policy](https://mailchimp.com/legal/privacy/){:target="_blank"}. Privacy Shield participant.
-
-##### Selling goods and services on-line
-
-This type of service makes it possible to sell and deliver digital goods on this Website and trough third party services.
-These services manage user data, such as first name and last name, user contact information to complete on-line purchases and on-line delivery of digital goods.
-These services may also collect data concerning the date and when the purchase was completed by the User, as well as when the User interacted with it, such as by downloading the digital goods.
-
-###### DPD - Digital Product Delivery (Portal Labs, LLC.)
-
-DPD is an all-in-one shopping cart and digital fulfillment service to sell downloads.
-
-Personal Data collected: email address, first name and last name.
-
-Place of processing: United States – [Privacy Policy](https://getdpd.com/legal/privacy-policy/){:target="_blank"}.
-
 #### The rights of Users
 
 Users may exercise certain rights regarding their Data processed by the Owner.
@@ -256,4 +234,4 @@ This privacy statement has been prepared based on provisions of multiple legisla
 
 This privacy policy relates solely to this Website, if not stated otherwise within this document.
 
-Last updated: September 11, 2018
+Last updated: December 21, 2019

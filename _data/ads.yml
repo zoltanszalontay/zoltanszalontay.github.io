@@ -1,12 +1,4 @@
 items:
-  - image: /assets/images/in-content/get-started-with-docker-in-your-projects-cover_370.png
-    title: Learn Docker with my book
-    sub: <s>$34.99</s> $11.99 - Christmas sale through December 31.
-    url: /get-started-with-docker-in-your-projects-through-examples/
-    type: own 
-    tag: Docker
-    ends: 
-
   - image: /assets/images/brands/udemy-logo.svg
     title: Check out the top Docker courses on Udemy
     sub: sponsored link
@@ -21,30 +13,6 @@ items:
     url: http://go.takacsmark.com?id=61108X1384518&xs=1&url=https%3A%2F%2Fwww.amazon.com%2FBuilding-Microservices-Designing-Fine-Grained-Systems-ebook%2Fdp%2FB00T3N7XB4%2Fref%3Dsr_1_1%3Fkeywords%3Ddocker%26qid%3D1559046937%26s%3Dbooks%26sr%3D1-1
     type: ad 
     tag: Docker
-    ends:
-
-  - image: /assets/images/brands/udemy-logo.svg
-    title: Learn PHP with Udemy courses 
-    sub: sponsored link 
-    url: http://go.takacsmark.com?id=61108X1384518&xs=1&url=https%3A%2F%2Fwww.udemy.com%2Fcourses%2Fsearch%2F%3Fsrc%3Dukw%26q%3Dphp
-    type: ad 
-    tag: PHP 
-    ends:
-
-  - image: /assets/images/brands/udemy-logo.svg
-    title: Learn Wordpress with Udemy courses 
-    sub: sponsored link 
-    url: http://go.takacsmark.com?id=61108X1384518&xs=1&url=https%3A%2F%2Fwww.udemy.com%2Fcourses%2Fsearch%2F%3Fsrc%3Dukw%26q%3Dwordpress
-    type: ad 
-    tag: Wordpress 
-    ends:
-
-  - image: /assets/images/brands/udemy-logo.svg
-    title: Rank higher with Udemy SEO courses
-    sub: sponsored link 
-    url:  http://go.takacsmark.com?id=61108X1384518&xs=1&url=https%3A%2F%2Fwww.udemy.com%2Fcourses%2Fsearch%2F%3Fsrc%3Dukw%26q%3Dseo
-    type: ad 
-    tag: SEO 
     ends:
 
   - image: /assets/images/brands/Python-book.jpg

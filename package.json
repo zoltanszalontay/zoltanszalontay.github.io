@@ -1,26 +1,26 @@
 {
-  "name": "takacsmark.github.io",
+  "name": "zoltanszalontay.github.io",
   "version": "1.0.0",
-  "description": "takacsmark.com hosted on github pages",
+  "description": "truepositive.hu hosted on github pages",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/takacsmark/takacsmark.github.io.git"
+    "url": "git+https://github.com/zoltanszalontay/zoltanszalontay.github.io.git"
   },
   "keywords": [
-    "takacsmark.com",
+    "truepositive.hu",
     "github",
     "pages"
   ],
-  "author": "Mark Takacs <mark@takacsmark.com>",
+  "author": "Zoltán Szalontay <zoltansz@truepositive.eu>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/takacsmark/takacsmark.github.io/issues"
+    "url": "https://github.com/zoltanszalontay/zoltanszalontay.github.io/issues"
   },
-  "homepage": "https://github.com/takacsmark/takacsmark.github.io#readme",
+  "homepage": "https://github.com/zoltanszalontay/zoltanszalontay.github.io#readme",
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "bootstrap": "^4.3.1",

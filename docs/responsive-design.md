@@ -1,6 +1,6 @@
 #Responsive design
 
-Responsive design documentation of takacsmark.github.io (takacsmark.com).
+Responsive design documentation of zoltanszalontay.github.io (truepositive.hu).
 
 ##Responsive limits
 

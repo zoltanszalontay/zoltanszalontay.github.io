@@ -1,26 +1,21 @@
-title: takacsmark.com
+title: truepositive.hu
 description: > # this means to ignore newlines until "baseurl:"
     Hacking your way through web economy with 15 years of high-end consulting experience is super exciting. You've seen a lot, and there is a lot to learn. My site is all about this.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://takacsmark.com" # the base hostname & protocol for your site
+url: "https://truepositive.hu" # the base hostname & protocol for your site
 permalink: "/:title/"
 
-author: takacsmark
+author: zoltanszalontay
 
-email: mark@takacsmark.com
-500px_username: takacsmark
+email: zoltansz@truepositive.eu
 
-twitter_username: takacsmark
-github_username:  takacsmark
-facebook_page: takacsmarkdotcom
-instagram_username: takacsmark111
-linkedin_username: takacsmark
-stackoverflow_username: users/3379134/mark
-youtube_channel: takacsmark
-googleplus_username: +Takacsmark
+twitter_username: zoltanszalontay
+github_username:  zoltanszalontay
+instagram_username: zoltanszalontay
+linkedin_username: zoltanszalontay
+youtube_channel: zoltan.szalontay
 
-disqus: takacsmark
-google_analytics: UA-41064919-3
+google_analytics: 
 
 plugins:
     - jekyll-sitemap

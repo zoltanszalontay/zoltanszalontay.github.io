@@ -1,12 +1,14 @@
-# Mark's blog
+# Truepositive.hu blog
 
-This is the GitHub Pages repo of my blog on [https://takacsmark.com](https://takacsmark.com).
+This blog is based on the code that's behind [https://takacsmark.com](https://takacsmark.com).
 
-My blog is a tech educational blog, so I turn my blog's GitHub repo into educational material with this readme.
+This is the GitHub Pages repo of Truepositive.hu's blog on [https://truepositive.hu](https://truepositive.hu).
+
+The blog shows the experiences and results we got during our projects.
 
 ## Key features
 
-This is a regular GitHub Pages blog, I added a few notable features that you may find useful:
+This is a regular GitHub Pages blog with a few notable features added that you may find useful:
 
 - the blog is served with Docker during development
 - development tools based on Gulp are also Dockerized
@@ -15,7 +17,7 @@ This is a regular GitHub Pages blog, I added a few notable features that you may
 
 To start the blog in development mode issue the following command:
 
-```termnial
+```terminal
 docker-compose up -d
 ```
 

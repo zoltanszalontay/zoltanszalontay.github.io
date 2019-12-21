@@ -6,25 +6,23 @@ permalink: /about/
 
 ## The blog
 
-This is the second time that I am starting this blog. I launched the original version when my career took a new turn and I moved to India for a short assignment.
-
-Then my life took some more turns and I was busy re-building everything around me and I felt it was not the right time to write. Well, mainly because I could not tell how things will turn out in the end.
-
-I am sitting here today thinking that I wanna write about practical things of life, no big philosophy. Things like, how I grow cactus from seeds, what are the best on-line courses I attended or which tools I found useful building my on-line business.
+Truepositive.hu is a private company. It is focusing on IoT Edge and Machine Learning solutions, developments and consultancy. This blog tries to summarize what Truepositive.hu is doing, what it achieved.
 
 ## Bio
 
-Mark is a guy turning 43 these days. He is happily married and he is fond of computers.
+The owner of Truepositive.hu is Zoltán Szalontay. Zoltán is an 57 y/o MSc in Electrical Engineering. He is fundamentally curious and always looks for solutions to interesting problems. He usually runs 4-5 projects concurrently.
 
-He spent over 15 years in IT and telecommunications, he architected complex IT solutions and lead large-scale delivery programs.
+Zoltán's first job was Research Scientist at the Institute for Computer Science and Control of the Hungarian Academy of Sciences (MTA SzTAKI) where he was developing a real-time binary noise classifier that could detect CNC machine tool breakage. 
 
-Mark decided to use his experience and his creative powers to build his own on-line venture with stuff he always wanted to use, but could not work with in a professional environment. Like AI, for example, or photography and vector art. Yeah, you usually don't see program directors running around with Bamboo tablets. And Mark did not like that.
+Later on, he worked for PonT Research in Colchester, England, where he was developing real-time financial securities information systems. He was responsible for the company's two most important functions: the spreadsheet and the chart displays.
 
-Today, Mark is working from home with his wife, who also left her career in telecommunications and joined the family project. They spend their days learning new tricks of marketing, SEO, the fashion industry and the cloud. They are building everything by themselves.
+During his 30s Zoltán changed his carreer and became Pre-sales Engineer at Olivetti and later on, Technology Strategist at Microsoft Corporation. He worked for Microsoft for almost 20 years. Leaving the company, he became the Chief Business Architect of Telenor Hungary.
 
-Mark and his wife know a good deal about how large enterprises work and now they are trying to build a cool family business with the mindset and reflexes of the corporate world. Sometimes this results in funny situations, some other times wise and insightful observations come out of it, because they have already dealt with complex and sizable stuff.
+During the last 3 years, Zoltán is a freelance IoT and Machine Learning consultant/developer. His 35 years of experince in the Enterprise world lets him find the root causes their optimal solutions. (Comment: That's why he can also deliver solution based Office 365 trainings when his time permits.)
 
-Mark and his wife live and work in Budapest, Hungary.
+Zoltán's competence covers developing IoT Edge solutions, developing for microcontrollers (his favorite is the ESP family of processors), Node-RED-based workflows and Machine Learning classification and prediction solutions.
+
+At home, he automates his house whenever it makes sense and gives real returns. He is making experiments at home in small. His infrastructure primarily uses ESP8266 and ESP32-based edge devices, Mosquitto MQTT broker, Node-RED, Grafana. All this runs on a single Raspberry, in Docker, and managed by Portainer.
 
 ## Contact
 

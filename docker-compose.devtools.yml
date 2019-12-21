@@ -20,7 +20,7 @@ services:
       dockerfile: Dockerfile.devtools
       args:
         node_image_version: ${NODE_IMAGE_VERSION}
-    image: takacsmark/takacsmark-dot-com:devtools-${NODE_IMAGE_VERSION}
+    image: truepositive-dot-hu:devtools-${NODE_IMAGE_VERSION}
     volumes:
       - ./:/usr/src/app
       - /usr/src/app/node_modules

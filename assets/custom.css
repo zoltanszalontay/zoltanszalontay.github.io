@@ -30,9 +30,9 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #221F22;
     text-align: left;
-    background-color: #87A0A0  
+    background-color: #87A0A0
 }
 
 [tabindex="-1"]:focus {
@@ -135,13 +135,13 @@ sup {
 }
 
 a {
-    color: #007bff;
+    color: #8FA8A4;
     text-decoration: none;
     background-color: transparent
 }
 
 a:hover {
-    color: #0056b3;
+    color: #8FA8A4;
     text-decoration: underline
 }
 

@@ -84,16 +84,28 @@ gulp.task('default', () => {
 gulp.task('img:cleanup', ()=> {
     del(destDir + '/**')
 })
+
 // Task to copy and minimize original images from source dir to dest dir
 // this task will only add new images and skips existing images
 gulp.task('img:minimize', () => {
     let files = []
+    console.log('Moving files...');
     // find the files that are present in the source dir but not in dest
     for(let entry of dirCompare.compareSync(srcDir, destDir).diffSet) {
         entry.state === 'left' ? files.push(entry.path1 + '/' + entry.name1) : null
+        if(entry.state === 'left') {
+            console.log('File: ' + entry.path1 + '/' + entry.name1)
+        }
+    }
+
+    if(files.length == 0) {
+        console.log('No new file found, exiting');
+        return 0;
     }
 
     console.log('Moving ' + files.length + ' new image(s).');
+    console.log('Source: ' + srcDir);
+    console.log('Destination: ' + destDir);
 
     return gulp.src(files, {base: srcDir })
         .pipe(imagemin([
@@ -105,9 +117,10 @@ gulp.task('img:minimize', () => {
                     {removeViewBox: true},
                     {cleanupIDs: false}
                 ]
-            })
+            }),
         ]))
-        .pipe(gulp.dest(destDir))
+        .pipe(gulp.dest(destDir)),
+        console.log('Finished...');
 });
 
 // Task to generate various image sizes from originals based on the config object
@@ -150,6 +163,7 @@ gulp.task('img:generatesizes', () => {
                             width,
                             config.dest
                         ])
+                        console.log('./' + path.parse(file).dir + '/' + path.parse(file).name + '_' + width.toString() + path.parse(file).ext);
                     }
                 }
             }
@@ -182,7 +196,6 @@ gulp.task('img:generatesizes', () => {
                 }))
                 .pipe(gulp.dest(item[3]));
         })
-
     }).catch((err) => {
         console.log('someting went wrong: ' + err)
     })

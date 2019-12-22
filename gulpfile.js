@@ -11,9 +11,9 @@ const fs = require('fs');
 const dirCompare = require('dir-compare');
 const imagemin = require('gulp-imagemin');
 const imageResize = require('gulp-image-resize');
-const rename = require("gulp-rename");
+const rename = require('gulp-rename');
 const del = require('del');
-const glob = require("glob")
+const glob = require('glob')
 const runSequence = require('run-sequence');
 
 /**
@@ -93,11 +93,12 @@ gulp.task('img:minimize', () => {
     // find the files that are present in the source dir but not in dest
     for(let entry of dirCompare.compareSync(srcDir, destDir).diffSet) {
         entry.state === 'left' ? files.push(entry.path1 + '/' + entry.name1) : null
-        if(entry.state === 'left') {
-            console.log('File: ' + entry.path1 + '/' + entry.name1)
-        }
+        // if(entry.state === 'left') {
+        //    console.log('File: ' + entry.path1 + '/' + entry.name1)
+        // }
     }
 
+    // zoltansz
     if(files.length == 0) {
         console.log('No new file found, exiting');
         return 0;
@@ -119,14 +120,12 @@ gulp.task('img:minimize', () => {
                 ]
             }),
         ]))
-        .pipe(gulp.dest(destDir)),
-        console.log('Finished...');
+        .pipe(gulp.dest(destDir))
 });
 
 // Task to generate various image sizes from originals based on the config object
 // this task will generate missing images only
 gulp.task('img:generatesizes', () => {
-
     const readFileList = new Promise( (resolve, reject) => {
         glob(destDir + '/**/!(*_[0-9]*).{png,gif,jpg,jpeg}', (err, files) => {
             if(!err){
@@ -173,7 +172,7 @@ gulp.task('img:generatesizes', () => {
             fileList.map(checkFileSizesExist)
         )
     }).catch((err) => {
-        console.log('someting went wrong: ' + err)
+        console.log('Someting went wrong: ' + err)
     }).then( (results) => {
 
         const res = results.reduce( (missing, value) => {
@@ -197,7 +196,7 @@ gulp.task('img:generatesizes', () => {
                 .pipe(gulp.dest(item[3]));
         })
     }).catch((err) => {
-        console.log('someting went wrong: ' + err)
+        console.log('Someting went wrong: ' + err)
     })
 });
 

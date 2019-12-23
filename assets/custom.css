@@ -4250,7 +4250,7 @@ input[type=submit].btn-block {
 }
 
 .bg-primary {
-    background-color: #D9D776 !important
+    background-color: rgb(217, 215, 198) !important
 }
 
 a.bg-primary:focus,
@@ -4338,7 +4338,7 @@ button.bg-dark:hover {
 }
 
 .bg-white {
-    background-color: #EBEBE2 !important
+    background-color: rgb(235, 235, 226) !important
 }
 
 .bg-transparent {

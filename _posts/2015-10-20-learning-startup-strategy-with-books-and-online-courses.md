@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Test #1"
+title: "Test a"
 description: "Learn everything you need to get started with Docker Compose in your project work. Learn gradually going through examples, get best practices based on previous project experience."
 date: 2019-12-22 21:42:00 +0100
 author: Zoltán Szalontay

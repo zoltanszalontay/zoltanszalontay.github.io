@@ -4250,7 +4250,7 @@ input[type=submit].btn-block {
 }
 
 .bg-primary {
-    background-color: #8FA8A4 !important
+    background-color: rgb(217, 215, 118) !important
 }
 
 a.bg-primary:focus,

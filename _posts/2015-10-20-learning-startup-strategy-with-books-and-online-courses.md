@@ -5,7 +5,7 @@ description: "In this post I give you the books and courses that are helpful whe
 date: 2015-10-20 16:50:00 +0100
 author: Zoltán Szalontay
 categories: Test
-thumbnail: "/assets/images/post-thumbs/learning-startup-strategy-online.jpg"
+thumbnail: "/assets/images/post-thumbs/Infra-camera-selfie.jpg"
 ---
 In this post I give you the books and courses that are helpful when you are in the process of defining the goals and plans building your startup strategy.
 

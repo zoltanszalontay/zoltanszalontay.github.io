@@ -26,4 +26,4 @@ At home, he automates his house whenever it makes sense and gives real returns. 
 
 Zoltán lives in Szentendre, a beautiful mediterranean city near Budapest, with his wife, Zita and his son, Rudolf. He loves (to play) music or making things, such as 3D printers.
 
-For more info about how Zoltán is thinking about his professional work [click here](https://truepositive.hu/zoltan-szalontay)
+For more info about how Zoltán is thinking about his professional work [click here](https://truepositive.hu/#/zoltan-szalontay)

@@ -39,7 +39,8 @@ If parking meters were connected devices (a data consumption device in every 50 
 
 But let’s go further! We cloud use Machine Learning (in other words, predictive AI technologies running on a big dataset) to decide, where the highest possibility is for a parking slot to get free in the next minute. The precision of this prediction depends on the amount of data it can work on.
 
-The architecture of the solution: 
+The architecture of the solution is something like this:
+
 ![image title](/assets/images/in-content/zoltan-szalontay-parking-meters.jpg){:.img-fluid}
 
 In the end, we provided users a value added parking service that can show them the street that will have a free parking slot, even if there is not any at the moment.

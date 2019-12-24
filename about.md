@@ -25,3 +25,5 @@ Zoltán's competence covers developing IoT Edge solutions, developing for microc
 At home, he automates his house whenever it makes sense and gives real returns. He is making experiments at home in small. His infrastructure primarily uses ESP8266 and ESP32-based edge devices, Mosquitto MQTT broker, Node-RED, Grafana. All this runs on a single Raspberry, in Docker, and managed by Portainer.
 
 Zoltán lives in Szentendre, a beautiful mediterranean city near Budapest, with his wife, Zita and his son, Rudolf. He loves (to play) music or making things, such as 3D printers.
+
+For more info about how Zoltán is thinking about his professional work [click here](https://truepositive.hu/zoltan-szalontay)

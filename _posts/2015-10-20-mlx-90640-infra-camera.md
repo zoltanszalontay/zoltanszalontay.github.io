@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learning Startup Strategy With Books and Online Courses"
+title:  "MLX90640 infra camera"
 description: "In this post I give you the books and courses that are helpful when you are in the process of defining the goals and plans building your startup strategy."
 date: 2015-10-20 16:50:00 +0100
 author: Zoltán Szalontay

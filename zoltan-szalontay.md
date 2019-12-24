@@ -6,6 +6,8 @@ permalink: /zoltansz/
 
 ## Strategic and communication competencies based on strong technology and devices knowledge
 
+![zoltan-szalontay](/assets/images/zoltansz_in_red_sq.jpg){:.img-fluid}
+
 I am an electrical engineer. I grew up surrounded by father’s tools and gadgets we used to build new tools and gadgets, hence planning, architecting and building tech solutions are all-natural to me.
 
 ### Technology
@@ -41,7 +43,7 @@ But let’s go further! We cloud use Machine Learning (in other words, predictiv
 
 The architecture of the solution is something like this:
 
-![image title](/assets/images/in-content/zoltan-szalontay-parking-meters.jpg){:.img-fluid}
+![zoltan-szalontay-parking-meters](/assets/images/in-content/zoltan-szalontay-parking-meters.jpg){:.img-fluid}
 
 In the end, we provided users a value added parking service that can show them the street that will have a free parking slot, even if there is not any at the moment.
 Gartner says, if we want to innovate and looking for the directions, always put the question: “What would Google do if it was in our business?” I believe the above example shows that direction.

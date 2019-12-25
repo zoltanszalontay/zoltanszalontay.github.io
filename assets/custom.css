@@ -135,7 +135,8 @@ sup {
 }
 
 a {
-    color: #D9D7C6;
+    /* color: #D9D7C6; */
+    color: #FFFFFF;
     text-decoration: none;
     background-color: transparent
 }

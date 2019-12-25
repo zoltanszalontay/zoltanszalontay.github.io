@@ -10,27 +10,30 @@ layout: default
   </div>
 </section>
 
-<article class="container" itemscope itemtype="https://schema.org/BlogPosting">
+<article class="container bg-dark" itemscope itemtype="https://schema.org/BlogPosting" >
 
     <!-- Post Title -->
     <section class="row">
         <div class="col-12">
             <h1 itemprop="name headline">{{ page.title }}</h1>
-	</div>
+    	</div>
     </section>
     
     <section class="row mt-2 mb-3">
         <div class="col-auto">
             <img class="img-fluid" style="width: 52px;" src="{{ site.url }}/assets/images/site-greeting/zoltansz_in_red_sq.jpg" />
-	</div>
+	    </div>
 
         <div class="col pl-0">
 	    {% if page.author %}
-	    <div class="small text-muted text-uppercase font-weight-bolder" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ page.author }}</span></div>
-	      {% endif %}
-	    
-            <div><time class="small text-muted" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></div>
+    	    <div class="small text-muted text-uppercase font-weight-bolder" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                <span itemprop="name">{{ page.author }}</span>
+            </div>
+	    {% endif %}
+        <div>
+            <time class="small text-muted" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
         </div>
+        <!-- </div> ??? -->
     </section>
     <!-- End Post Title -->
 
@@ -39,19 +42,18 @@ layout: default
 
         <!-- Main Content -->
         <div class="col-12 col-lg-9">
-
             <!-- Video Thumb -->
             {% if page.videothumb %}
-	    <div class="embed-responsive embed-responsive-16by9 mb-4">
-	        <iframe class="embed-responsive-item" src="{{ page.videothumb }}" allowfullscreen></iframe>
-	    </div>
+                <div class="embed-responsive embed-responsive-16by9 mb-4">
+                    <iframe class="embed-responsive-item" src="{{ page.videothumb }}" allowfullscreen></iframe>
+                </div>
             {% endif %}
             <!-- End Video Thumb -->
 
             <!-- Post Content -->
             <section class="row" itemprop="articleBody">
                 <div class="col-12">
-	            {{ content }}
+    	            {{ content }}
                 </div>
             </section>
 
@@ -59,7 +61,7 @@ layout: default
             <section class="row">
                 <div class="col-12 text-right mb-4">
                     <span class="small font-weight-bolder text-uppercase">Share this article!</span>
-	            {% include social-share.html %}
+	                {% include social-share.html %}
                 </div>
             </section>
         </div>

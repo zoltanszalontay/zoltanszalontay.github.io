@@ -4,8 +4,9 @@ title:  "MLX90640 based infra camera with LoRa WAN communication."
 description: "In this post I will show you how I developed an infra camera with LoRa communication."
 date: 2015-10-20 16:50:00 +0100
 author: Zoltán Szalontay
-categories: Test
 thumbnail: "/assets/images/post-thumbs/Infra-camera-selfie.jpg"
+categories: Test
+tags: ESP32 IoT LoRa Hardware C++
 ---
 Something intro here.
 

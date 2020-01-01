@@ -49,4 +49,10 @@
     <!-- Site CSS -->
     <link rel="stylesheet" href="{{ "/assets/custom.css" | prepend: site.baseurl | prepend: site.url }}">
     <!-- End Site CSS -->
+
+    <!-- Collect tags -->
+    {% if site.tags != "" %}
+        {% include collecttags.html %}
+    {% endif %}
+    <!-- End Collect tags -->
 </head>

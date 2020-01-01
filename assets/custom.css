@@ -1652,16 +1652,16 @@ pre code {
     --teal: #20c997;
     --cyan: #17a2b8;
     --white: #fff;
-    --gray: #6c757d;
-    --gray-dark: #343a40;
-    --primary: #007bff;
+    --gray: #6c7575;
+    --gray-dark: #383b3b;
+    --primary: #221F20;
     --secondary: #6c757d;
     --success: #28a745;
     --info: #17a2b8;
     --warning: #ffc107;
     --danger: #dc3545;
-    --light: #f8f9fa;
-    --dark: #343a40;
+    --light: #FFF5D1;
+    --dark: #221F20;
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
@@ -7962,7 +7962,15 @@ button.bg-dark:hover {
 }
 
 .text-white {
-    color: #fff !important
+    color: #FFF5D1 !important
+}
+
+.text-gray {
+    color: #6c7575 !important
+}
+
+.text-gray-dark {
+    color: #383b3b !important
 }
 
 .text-primary {
@@ -7971,7 +7979,7 @@ button.bg-dark:hover {
 
 a.text-primary:focus,
 a.text-primary:hover {
-    color: #0056b3 !important
+    color: #221F20 !important
 }
 
 .text-secondary {
@@ -8020,25 +8028,25 @@ a.text-danger:hover {
 }
 
 .text-light {
-    color: #f8f9fa !important
+    color: #FFF5D1 !important
 }
 
 a.text-light:focus,
 a.text-light:hover {
-    color: #cbd3da !important
+    color: #FFF5D1 !important
 }
 
 .text-dark {
-    color: #343a40 !important
+    color: #221F20 !important
 }
 
 a.text-dark:focus,
 a.text-dark:hover {
-    color: #121416 !important
+    color: #221F20 !important
 }
 
 .text-body {
-    color: #212529 !important
+    color: #221F20 !important
 }
 
 .text-muted {
@@ -8137,3 +8145,24 @@ a.text-dark:hover {
     max-width: 64px;
     max-height: 64px
 }
+
+.tag-size-5 {
+    font-size: 1.5rem;
+}
+
+.tag-size-4 {
+    font-size: 1.25rem;
+}
+
+.tag-size-3 {
+    font-size: 1.0rem;
+}
+
+.tag-size-2 {
+    font-size: 0.85rem;
+}
+
+.tag-size-1 {
+    font-size: 0.75rem;
+}
+

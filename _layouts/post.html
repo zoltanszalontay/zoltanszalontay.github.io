@@ -13,7 +13,7 @@ layout: default
 <article class="container bg-light" itemscope itemtype="https://schema.org/BlogPosting" >
 
     <!-- Post Title -->
-    <section class="row">
+    <section class="row bg-light">
         <div class="col-12">
             <h1 itemprop="name headline">{{ page.title }}</h1>
     	</div>
@@ -58,8 +58,8 @@ layout: default
             </section>
 
             <!-- Social Share -->
-            <section class="row">
-                <div class="col-12 text-right bg-dark mb-4">
+            <section class="row bg-dark">
+                <div class="col-12 text-right mb-4">
                     <span class="small font-weight-bolder text-uppercase">Share this article!</span>
 	                {% include social-share.html %}
                 </div>
@@ -76,6 +76,15 @@ layout: default
     <!-- End Main Content and Sidebar Container -->
     
 </article>
+
+<!-- Tags -->
+<span>[
+  {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge">{{ tag_name }}</code>&nbsp;</a>
+  {% endfor %}
+]</span>
+<!-- End Tags -->
 
 <!-- Inline Sponsored Links -->
 <script>

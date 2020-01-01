@@ -6,7 +6,7 @@ date: 2015-10-20 16:50:00 +0100
 author: Zoltán Szalontay
 thumbnail: "/assets/images/post-thumbs/Infra-camera-selfie.jpg"
 categories: Test
-tags: ESP32 IoT LoRa Hardware C++
+tags: esp32 iot lora hardware cpp
 ---
 Something intro here.
 

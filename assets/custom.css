@@ -3884,31 +3884,31 @@ input[type=submit].btn-block {
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-    color: rgba(0, 0, 0, .9)
+    color: #1E1E1F
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0, 0, 0, .5)
+    color: #1E1E1F
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: rgba(0, 0, 0, .7)
+    color: #1E1E1F
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
-    color: rgba(0, 0, 0, .3)
+    color: #1E1E1F
 }
 
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(0, 0, 0, .9)
+    color: #1E1E1F
 }
 
 .navbar-light .navbar-toggler {
-    color: rgba(0, 0, 0, .5);
+    color: #1E1E1F;
     border-color: rgba(0, 0, 0, .1)
 }
 
@@ -3917,43 +3917,43 @@ input[type=submit].btn-block {
 }
 
 .navbar-light .navbar-text {
-    color: rgba(0, 0, 0, .5)
+    color: #1E1E1F
 }
 
 .navbar-light .navbar-text a,
 .navbar-light .navbar-text a:focus,
 .navbar-light .navbar-text a:hover {
-    color: rgba(0, 0, 0, .9)
+    color: #1E1E1F
 }
 
 .navbar-dark .navbar-brand,
 .navbar-dark .navbar-brand:focus,
 .navbar-dark .navbar-brand:hover {
-    color: #fff
+    color: #BECDCC
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: hsla(0, 0%, 100%, .5)
+    color: #BECDCC
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: hsla(0, 0%, 100%, .75)
+    color: #BECDCC
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
-    color: hsla(0, 0%, 100%, .25)
+    color: #BECDCC
 }
 
 .navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-    color: #fff
+    color: #BECDCC
 }
 
 .navbar-dark .navbar-toggler {
-    color: hsla(0, 0%, 100%, .5);
+    color: #BECDCC;
     border-color: hsla(0, 0%, 100%, .1)
 }
 
@@ -3962,13 +3962,13 @@ input[type=submit].btn-block {
 }
 
 .navbar-dark .navbar-text {
-    color: hsla(0, 0%, 100%, .5)
+    color: #BECDCC;
 }
 
 .navbar-dark .navbar-text a,
 .navbar-dark .navbar-text a:focus,
 .navbar-dark .navbar-text a:hover {
-    color: #fff
+    color: #BECDCC
 }
 
 .card {
@@ -4318,6 +4318,14 @@ button.bg-danger:hover {
 
 .bg-light {
     background-color: #BECDCC !important
+}
+
+.bg-header {
+    background-color: #1E1E1F !important
+}
+
+.bg-footer {
+    background-color: #1E1E1F !important
 }
 
 a.bg-light:focus,

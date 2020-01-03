@@ -2,10 +2,10 @@
 layout: default
 ---
 <div class="post">
-<h1>Tag: {{ page.tag }}</h1>
+<h1 class="tag-size-5" style="color:black">Tag: {{ page.tag }}/h1>
 <ul>
 {% for post in site.tags[page.tag] %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+  <li><a href="{{ post.url }}"><span class="tag-size-4" style="color:black">{{ post.title }}</span></a> ({{ post.date | date_to_string }})<br>
     {{ post.description }}
   </li>
 {% endfor %}

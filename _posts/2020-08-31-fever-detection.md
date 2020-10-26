@@ -5,7 +5,7 @@ description: "We have finished the first module of our Raspberry Pi based Intell
 date: 2020-08-31 20:00:00 +0100
 author: Zoltán Szalontay
 categories: Product
-thumbnail: "/assets/images/post-thumbs/.jpg"
+thumbnail: "/assets/images/post-thumbs/fever-detector-1.png"
 tags: raspberry tensorflow coral object-detection object-tracking thermal-camera
 ---
 * TOC
@@ -31,6 +31,8 @@ The device can use a number of correction algorithms:
 The software can log the number of people and their temperature. It can send push notifications or e-mail alerts, statuses or life sign messages. Screen capture of video recording is available.
 
 ## About the hardware:
+
+![The Smart Camera prototype in its 3D printed box with the Google Coral Edge TPU](/assets/images/in-content/smart-camera1.jpg){:.img-fluid}
 
 * The device is based on a Raspberry Pi 4B (2GB RAM, 16GB+ SD card or SSD).
 * The primary camera is a Raspberry Pi camera. It may be replaced by any USB camera.

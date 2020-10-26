@@ -32,7 +32,7 @@ The software can log the number of people and their temperature. It can send pus
 
 ## About the hardware:
 
-![The Smart Camera prototype in its 3D printed box with the Google Coral Edge TPU](/assets/images/in-content/smart-camera1.jpg){:.img-fluid}
+![The Smart Camera prototype in its 3D printed box with the Google Coral Edge TPU](/assets/images/in-content/smart-camera-1.jpg){:.img-fluid}
 
 * The device is based on a Raspberry Pi 4B (2GB RAM, 16GB+ SD card or SSD).
 * The primary camera is a Raspberry Pi camera. It may be replaced by any USB camera.
@@ -42,7 +42,10 @@ The software can log the number of people and their temperature. It can send pus
   * Touch screen/monitor
   * Solar cell and battery for mobile operation
 
-[Check out the video that shows the Fever Detector Smart Camera in action here](https://www.youtube.com/watch?v=IU5YGhB-Flg)
+Check out the video that shows the Fever Detector Smart Camera in action:
+<div class="embed-responsive embed-responsive-16by9 mb-4">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=IU5YGhB-Flg" allowfullscreen></iframe>
+</div>
 
 ## Wrap-up
 

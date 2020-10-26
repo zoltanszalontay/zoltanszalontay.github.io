@@ -38,4 +38,9 @@ docker-compose -f docker-compose.devtools.yml run gulp
 
 This command will give you an interactive shell inside a `node` container that has Gulp pre-installed.
 
+In the terminal, run the following command to generate images located in ./assets/_raw_images/ to different sizes.
+```terminal
+gulp img:generatesizes
+```
+
 See the Compose file, `docker-compose.devtools.yml` and `gulpfile.js` for further details.

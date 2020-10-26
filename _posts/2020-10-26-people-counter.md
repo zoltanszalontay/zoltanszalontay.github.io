@@ -5,7 +5,6 @@ description: "The People Counter module of our Smart Camera device is ready"
 date: 2020-10-26 20:00:00 +0100
 author: Zoltán Szalontay
 thumbnail: "/assets/images/post-thumbs/people-counter1.jpg"
-videothumb: "https://studio.youtube.com/video/voxTJ1efxxE"
 categories: Product
 tags: raspberry tensorflow coral object-detection object-tracking 
 ---

@@ -43,9 +43,7 @@ The software can log the number of people and their temperature. It can send pus
   * Solar cell and battery for mobile operation
 
 Check out the video that shows the Fever Detector Smart Camera in action:
-<div class="embed-responsive embed-responsive-16by9 mb-4">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=IU5YGhB-Flg" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IU5YGhB-Flg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Wrap-up
 

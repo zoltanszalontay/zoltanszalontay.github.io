@@ -6,7 +6,7 @@ date: 2020-10-26 20:00:00 +0100
 author: Zoltán Szalontay
 thumbnail: "/assets/images/post-thumbs/people-counter-1.png"
 categories: Product
-tags: raspberry tensorflow coral object-detection object-tracking 
+tags: raspi tf coral cv
 ---
 ## Introduction
 

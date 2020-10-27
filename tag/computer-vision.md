@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: cv"
+title: "Tag: Computer Vision"
 tag: cv
 ---

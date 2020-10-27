@@ -10,7 +10,7 @@ tags: raspberry tensorflow coral CV
 ---
 ## Introduction
 
-We are very happy to announce that the first module of our AIoT platform, an Intelligent Edge device that detects people, locates their forehead and measures temperature in real-time, is ready for real customer tests.
+We are very happy to announce that the first module of our AIoT platform, an Intelligent Edge device that detects people, locates their forehead and measures temperature in real-time, is ready for customer tests.
 
 ## Main topic
 

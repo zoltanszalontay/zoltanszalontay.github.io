@@ -6,7 +6,7 @@ permalink: /zoltansz/
 
 ## Strategic and communication competencies based on strong technology and devices knowledge
 
-![Zoltán Szalontay](/assets/images/site-greeting/zoltansz_in_red_sq.jpg){:.img-fluid}
+![Zoltán Szalontay](/assets/images/zoltansz_in_red_sq.jpg){:.img-fluid}
 
 I am an electrical engineer. I grew up surrounded by father’s tools and gadgets we used to build new tools and gadgets, hence planning, architecting and building tech solutions are all-natural to me.
 

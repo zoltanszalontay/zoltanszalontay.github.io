@@ -31,7 +31,10 @@ The device uses the same hardware as the one used by our Fever Detector. The onl
   * Touch screen/monitor
   * Solar cell and battery for mobile operation
 
-[Check out the people counter smart camera in action here](https://www.youtube.com/watch?v=voxTJ1efxxE)
+Check out the people counter smart camera in action:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MV7yFJw1BPo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/voxTJ1efxxE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Wrap-up
 

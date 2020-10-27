@@ -6,7 +6,7 @@ date: 2020-08-31 20:00:00 +0100
 author: Zoltán Szalontay
 categories: Product
 thumbnail: "/assets/images/post-thumbs/fever-detector-1.png"
-tags: raspi tf coral cv
+tags: raspberry tensorflow coral CV
 ---
 ## Introduction
 

@@ -1,5 +1,5 @@
 ---
 layout: tagpage
 title: "Tag: Tensorflow"
-tag: tf
+tag: tensorflow
 ---

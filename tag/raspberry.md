@@ -1,5 +1,5 @@
 ---
 layout: tagpage
 title: "Tag: Raspberry"
-tag: raspi
+tag: raspberry
 ---

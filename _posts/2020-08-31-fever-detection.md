@@ -49,4 +49,4 @@ Check out the video that shows the Fever Detector Smart Camera in action:
 
 ## Wrap-up
 
-The True Positive Fever Detector Smart Camera detects multiple faces and measures their temperature in real-time.
+The Truepositive.hu Fever Detector Smart Camera detects multiple faces and measures their temperature in real-time.

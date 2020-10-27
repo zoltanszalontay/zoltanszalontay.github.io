@@ -31,7 +31,7 @@ The device uses the same hardware as the one used by our Fever Detector. The onl
   * Touch screen/monitor
   * Solar cell and battery for mobile operation
 
-Check out the True Positive People Counter Smart Camera in action:
+Check out the Truepositive.hu People Counter Smart Camera in action:
 <iframe
   width="560" height="315" 
   src="https://www.youtube.com/embed/MV7yFJw1BPo" 
@@ -42,4 +42,4 @@ Check out the True Positive People Counter Smart Camera in action:
 
 ## Wrap-up
 
-The True Positive People Counter Smart Camera device is easy to deploy. It can continuously detect and track visitors and alerts when the maximum room capacity is reached.
+The Truepositive.hu People Counter Smart Camera device is easy to deploy. It can continuously detect and track visitors and alerts when the maximum room capacity is reached.

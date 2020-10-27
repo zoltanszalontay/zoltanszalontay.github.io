@@ -6,11 +6,11 @@ permalink: /about/
 
 ## The blog
 
-Truepositive.hu is a private company. It is focusing on IoT Edge and Machine Learning solutions, developments and consultancy. This blog tries to summarize what Truepositive.hu is doing, what it achieved.
+Truepositive.hu is a private company. It is focusing on Intelligent IoT Edge and Machine Learning solutions, developments and consultancy. This blog summarizes what Truepositive.hu has been doing, what it has achieved.
 
 ## Bio
 
-The owner of Truepositive.hu is Zoltán Szalontay. Zoltán is an 57 y/o MSc in Electrical Engineering. He is fundamentally curious and always looks for solutions to interesting problems. He usually runs 4-5 projects concurrently.
+The founder of Truepositive.hu is Zoltán Szalontay. Zoltán is an 57 y/o MSc in Electrical Engineering. He is fundamentally curious and always looks for solutions to interesting problems. He usually runs 4-5 projects concurrently.
 
 Zoltán's first job was Research Scientist at the Institute for Computer Science and Control of the Hungarian Academy of Sciences (MTA SzTAKI) where he was developing a real-time binary noise classifier that could detect CNC machine tool breakage. 
 
@@ -24,6 +24,6 @@ Zoltán's competence covers developing IoT Edge solutions, developing for microc
 
 At home, he automates his house whenever it makes sense and gives real returns. He is making experiments at home in small. His infrastructure primarily uses ESP8266 and ESP32-based edge devices, Mosquitto MQTT broker, Node-RED, Grafana. All this runs on a single Raspberry, in Docker, and managed by Portainer.
 
-Zoltán lives in Szentendre, a beautiful mediterranean city near Budapest, with his wife, Zita and his son, Rudolf. He loves (to play) music or making things, such as 3D printers.
+Zoltán lives in Szentendre, a beautiful mediterranean city near Budapest, with his wife, Zita and his son, Rudolf, who studies biochemistry. His two elder children are Orsolya and Marcell. Orsolya is a psychologist and works for Sanofi, while Marcel lives in Rome and works as an IT consultant. Zoltán loves (to play) music or making things, such as 3D printers.
 
 For more info about how Zoltán is thinking about his professional work [click here](https://truepositive.hu/zoltansz/)

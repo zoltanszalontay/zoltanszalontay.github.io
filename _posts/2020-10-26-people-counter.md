@@ -8,9 +8,6 @@ thumbnail: "/assets/images/post-thumbs/people-counter-1.png"
 categories: Product
 tags: raspberry tensorflow coral object-detection object-tracking 
 ---
-* TOC
-{:toc}
-
 ## Introduction
 
 We have just released the second module of our Smart Camera Intelligent IoT Edge device, a People Counter.

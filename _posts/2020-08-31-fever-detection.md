@@ -8,9 +8,6 @@ categories: Product
 thumbnail: "/assets/images/post-thumbs/fever-detector-1.png"
 tags: raspberry tensorflow coral object-detection object-tracking thermal-camera
 ---
-* TOC
-{:toc}
-
 ## Introduction
 
 We are very happy to announce that the first module of our AIoT platform, an Intelligent Edge device that detects people, locates their forehead and measures temperature in real-time, is ready for real customer tests.
@@ -36,7 +33,10 @@ The software can log the number of people and their temperature. It can send pus
 
 * The device is based on a Raspberry Pi 4B (2GB RAM, 16GB+ SD card or SSD).
 * The primary camera is a Raspberry Pi camera. It may be replaced by any USB camera.
-* Thermal camera: To measure people's temperature, we use a FLIR Lepton 3 thermal camera. Its resolution is 160x120. It is substantial for situations when less than 10-15 people are visible at the same time. Capture speed is 9FPS.
+* Thermal camera:
+  * To measure people's temperature, we use a FLIR Lepton 3 thermal camera. 
+  * Resolution is 160x120. It is substantial for situations when less than 10-15 people are visible at the same time. 
+  * Capture speed is 9 FPS.
 * Computer vision models are run on a Google Coral Edge TPU.
 * Optional hardware components:
   * Touch screen/monitor

@@ -12,9 +12,9 @@ tags: raspberry tensorflow coral CV
 
 We have just released the second module of our Smart Camera Intelligent IoT Edge device, a People Counter.
 
-## Main topic
+## People Counter
 
-The People Counter function helps retailers, banks, insurance companies to count their customers and limit the number of people entering their offices. The Smart Camera module detects people and tracks them. It is important to note that the device does this without storing any photos of customers or recignizing them.
+The People Counter function helps retailers, banks, insurance companies to count their customers and limit the number of people entering their offices. The Smart Camera module detects people and tracks them. It is important to note that the device does this without storing any photos of customers or recognizing them.
 
 The entrance as a yellow boundary line can be specified on the screen. The Smart Camera counts people crossing the line and counts the number of people inside. It can issue an alert when the maximum capacity of the office is reached.
 
@@ -31,8 +31,12 @@ The device uses the same hardware as the one used by our Fever Detector. The onl
   * Touch screen/monitor
   * Solar cell and battery for mobile operation
 
-Check out the people counter smart camera in action:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MV7yFJw1BPo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Check out the True Positive People Counter Smart Camera in action:
+<iframe
+  width="560" height="315" 
+  src="https://www.youtube.com/embed/MV7yFJw1BPo" 
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/voxTJ1efxxE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

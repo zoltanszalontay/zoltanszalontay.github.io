@@ -12,7 +12,7 @@ tags: raspberry tensorflow coral CV
 
 We are very happy to announce that the first module of our AIoT platform, an Intelligent Edge device that detects people, locates their forehead and measures temperature in real-time, is ready for customer tests.
 
-## Main topic
+## Fever Detector
 
 The primary design principle was to develop a Smart Camera IoT Edge device that runs on the cheapest possible hardware that is needed to perform various real-time Computer Vision related tasks to create business value for customers. The platform we created is modular, so e.g. Fever Detection and People Counter modules may run in parallel, on the same hardware.
 

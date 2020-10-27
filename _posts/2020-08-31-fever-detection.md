@@ -23,7 +23,9 @@ The device can use a number of correction algorithms:
 * Temperature correction:
   * The device normalizes measured temperatures to a fixed temperature reference object, called the Black Body.
   * Temperature normalization can work with a variable temperature reference object as well.
-* Distance correction: The temperature is corrected based on the predicted distance of the ojects (faces).
+* Distance correction: The temperature is corrected based on the predicted distance of the ojects (faces). 
+
+The device can measure temperatures for faces closer than 2 meters.
 
 The software can log the number of people and their temperature. It can send push notifications or e-mail alerts, statuses or life sign messages. Screen capture of video recording is available.
 
@@ -34,7 +36,7 @@ The software can log the number of people and their temperature. It can send pus
 * The device is based on a Raspberry Pi 4B (2GB RAM, 16GB+ SD card or SSD).
 * The primary camera is a Raspberry Pi camera. It may be replaced by any USB camera.
 * Thermal camera:
-  * To measure people's temperature, we use a FLIR Lepton 3 thermal camera. 
+  * To measure people's temperature, we use a [FLIR Lepton 3.5 radiometric thermal camera](https://www.flir.com/products/lepton/?model=3.5%20Lepton&_ga=2.62341164.1062001574.1522086040-178603989.1522086040).
   * Resolution is 160x120. It is substantial for situations when less than 10-15 people are visible at the same time. 
   * Capture speed is 9 FPS.
 * Computer vision models are run on a Google Coral Edge TPU.

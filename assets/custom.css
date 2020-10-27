@@ -138,12 +138,13 @@ a {
     /* color: #D9D7C6; */
     /* color: #BECDCC; */
     color: #383b3b;
-    text-decoration: none;
+    text-decoration: underline;
     background-color: transparent
 }
 
 a:hover {
-    color: #BECDCD;
+    /* color: #BECDCD; */
+    color: #383b3b;
     text-decoration: underline
 }
 

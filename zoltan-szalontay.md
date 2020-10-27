@@ -8,7 +8,7 @@ permalink: /zoltansz/
 
 ![Zoltán Szalontay](/assets/images/zoltansz_in_red_sq.jpg){:.img-fluid}
 
-I am an electrical engineer. I grew up surrounded by father’s tools and gadgets we used to build new tools and gadgets, hence planning, architecting and building tech solutions are all-natural to me.
+I am an electrical engineer. I grew up surrounded by father’s tools and gadgets we used to build new tools and gadgets, hence planning, architecting, building and debugging tech solutions are all-natural to me.
 
 ### Technology
 My all-time goal is to acquire “reusable knowledge”. This is why I am a generalist. I have experiences in many aspects of information technology: programming, artificial intelligence/machine learning, databases, IT operation, identity management, security, networking and so on.

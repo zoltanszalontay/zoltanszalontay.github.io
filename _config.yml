@@ -1,6 +1,6 @@
-title: truepositive.hu
+title: Truepositive.hu Smart Cameras
 description: > # this means to ignore newlines until "baseurl:"
-    Finding technology solutions to business problems. Developing IoT Edge solutions and Machine Learning algorithms on the Edge.
+    Developing COVID-19 Fever Detector and People Counter IoT Edge devices
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://truepositive.hu" # the base hostname & protocol for your site
 permalink: "/:title/"
@@ -15,7 +15,8 @@ instagram_username: zoltanszalontay
 linkedin_username: zoltanszalontay
 youtube_channel: channel/UCrExDu53VZS2y1KGHny0QOA
 
-# google_analytics: 
+# 
+google_analytics: UA-181492090-1
 
 plugins:
     - jekyll-sitemap

@@ -20,7 +20,7 @@ The entrance as a yellow boundary line can be specified on the screen. The Smart
 
 Apart from people, the system can detect and track other types of objects, such as card, bicycles etc. So it can also be used as a traffic counter that counts different types of vehicles separately.
 
-The device uses the same hardware as the one used by our Fever Detector. The only difference is that the People Counter module does not require a thermal camera.
+The device uses the same hardware as the one used by our Fever Detector. The only difference is that the People Counter module does not require a thermal camera. The code modules uses the code, the modules can be turned on or off in the configuration. The two modules may run in parallel.
 
 ## Hardware
 
@@ -42,4 +42,4 @@ Check out the Truepositive.hu People Counter Smart Camera in action:
 
 ## Wrap-up
 
-The Truepositive.hu People Counter Smart Camera device is easy to deploy. It can continuously detect and track visitors and alerts when the maximum room capacity is reached.
+The Truepositive.hu People Counter Smart Camera device is an obvious extension of our Fever Detector. The device is easy to deploy. It can continuously detect and track visitors and alerts when the maximum room capacity is reached.

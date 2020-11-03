@@ -4,7 +4,7 @@ title: Hungarian Oil & Gas Company Plc tests Truepositive.hu Smart Camera to det
 permalink: /references/mol
 tags: reference
 ---
-![MOL Group](/assets/images/in-content/mol-logo.jpg){:.img-fluid}
+![MOL Group](/assets/images/in-content/mol-logo.jpg){:.img-thumbnail}
 
 ## Truepositive.hu Fever Detection Smart Camera is used in MOL Headquarters
 

@@ -15,13 +15,13 @@ MOL Group wanted a system that can measure the temperature of people without deg
 This is where Truepositive.hu comes into the picture. Our strategy is to downscale our devices to the bare minimum that is still able to fulfill the tasks. In many cases, this requires:
 * high levels of algorithmic and resource optimizations,
 * designing balanced hardware and software architectures, 
-* finding various correction algoritms,
+* finding various correction algorithms,
 * creating models and running calibrations to compensate distorted measures,
 * use predictive analytics,
 * and ultimately: Machine Learning in any aspect of the projects.
 
 Also, we develop our products with the intent to tightly integrate it to the customer's existing enterprise services to provide a higher level business value.
 
-Today, MOL Group is running our Truepositive.hu camera prototype in its Headquarter corridor to detect feverish colleagues or visitors. Since our cameras are modular and enpandable, in terms of hardware and software as well, we are continuously developing our code to fit the customer's requirements. 
+Today, MOL Group is running our Truepositive.hu camera prototype in its Headquarter corridor to detect feverish colleagues or visitors. Since our cameras are modular and expandable, in terms of hardware and software as well, we are continuously developing our code to fit the customer's requirements. 
 
 Thanks to the valuable feedback provided by the project teams from MOL's side during the past months, our product became ready for the enterprises.

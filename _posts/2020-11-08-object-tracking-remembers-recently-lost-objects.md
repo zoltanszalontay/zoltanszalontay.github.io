@@ -31,7 +31,14 @@ For the first problem correlation based trackers may have the solution. The seco
 ## Demo:
 
 Check out the video that shows the Object Detector in action:
-<iframe width="560" height="315" src="https://youtu.be/hqLGBOBQ7_4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+  width="560" 
+  height="315" 
+  src="https://youtu.be/embed/hqLGBOBQ7_4" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
 
 # More information
 

@@ -5,8 +5,4 @@ permalink: /references/
 tags: reference
 ---
 
-# MOL Group
-
-![MOL Group](/assets/images/in-content/mol-logo.jpg){:.img-fluid}
-
-[Hungarian Oil & Gas Company Plc tests Truepositive.hu Smart Camera to detect colleagues having higher than normal temperature](/references/mol)
+# TruePositive.hu references will listed here as soon as they may be published

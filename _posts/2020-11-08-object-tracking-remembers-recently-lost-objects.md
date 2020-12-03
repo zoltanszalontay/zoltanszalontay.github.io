@@ -5,7 +5,8 @@ description: "We discuss how an Object Tracker can help the Fever Detector camer
 date: 2020-11-08 20:00:00 +0100
 author: Zoltán Szalontay
 categories: Product
-thumbnail: "/assets/images/post-thumbs/object-tracker-1.png"
+thubnail: "https://www.youtube.com/embed/2vIsZK1b93I?autoplay=1&loop=1&cc_load_policy=1rel=0&controls=0&showinfo=0&playlist=2vIsZK1b93I"
+# thumbnail: "/assets/images/post-thumbs/object-tracker-1.png"
 tags: raspberry tensorflow coral cv
 ---
 ## Introduction

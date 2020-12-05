@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The role of Object Tracking in a Fever Detector application"
-description: "We discuss how an Object Tracker can help the Fever Detector camera whe objects disappear temporarily"
+description: "We discuss how an Object Tracker can help the Fever Detector camera when objects disappear temporarily"
 date: 2020-11-08 20:00:00 +0100
 author: Zoltán Szalontay
 categories: Product
@@ -10,15 +10,15 @@ tags: raspberry tensorflow coral cv
 ---
 ## Introduction
 
-In this post we discuss the role of an Object Tracker algorithm and how improve a Fever Detector application.
+In this post we discuss the role of an Object Tracker algorithm and how to improve a Fever Detector application.
 
 ## Object Tracker
 
 The role of an Object Tracker is to make and maintain associations between bounding boxes found on consecutive video frames.
 
-When one or more objects are found on a video frame, th edetector returns their bounding box. The same happens for the next frame. The problem is that we cannot tell which rectangle on the second frame contains the same object (person, face etc.) that for example the first rectangle on the first frame. We need an algorithm that finds and maintains 1-1 associations between bounding boxes found on the two frames.
+When one or more objects are found on a video frame, the detector returns their bounding box. The same happens for the next frame. The problem is that we cannot tell which rectangle on the second frame contains the same object (person, face etc.) that for example the first rectangle on the first frame. We need an algorithm that finds and maintains 1:1 associations between bounding boxes found on the two frames.
 
-One of the most simplistic Object Tracker algorithm is the Centroid Tracker. It simply associates two boxes based on their distance. It supposes that the objects do not move a lot between two frames so obviously, the closest box shows tha same object.
+One of the most simplistic Object Tracker algorithm is the Centroid Tracker. It simply associates two boxes based on their distance. It supposes that the objects do not move a lot between two frames so obviously, the closest box shows the same object.
 
 This algorithm has some problems, though:
 * It gets confused when two objects get too close.
@@ -30,9 +30,9 @@ For the first problem correlation based trackers may have the solution. The seco
 
 ## Demo:
 
-Check out the video that shows the Object Detector in action:
+Check out the video that shows the Object Tracker in action:
 <iframe width="560" height="420" src="https://www.youtube.com/embed/2vIsZK1b93I?autoplay=1&loop=1&cc_load_policy=1rel=0&controls=0&showinfo=0&playlist=2vIsZK1b93I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # More information
 
-Adrian Rosebrock posted an [excellent article](https://www.pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/) about the Centroid Tracker on his excellent Pyimagesearch.com site.
+Adrian Rosebrock posted an [great article](https://www.pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/) about the Centroid Tracker on his excellent Pyimagesearch.com site.

@@ -42,4 +42,4 @@ Check out the Truepositive.hu People Counter Smart Camera in action:
 
 ## Wrap-up
 
-The Truepositive.hu People Counter Smart Camera device is an obvious extension of our Fever Detector. The device is easy to deploy. It can continuously detect and track visitors and alerts when the maximum room capacity is reached.
+The Truepositive.eu People Counter Smart Camera device is an obvious extension of our Fever Detector. The device is easy to deploy. It can continuously detect and track visitors and alerts when the maximum room capacity is reached.

@@ -4,7 +4,7 @@ title: Privacy policy
 permalink: /privacy-policy/
 ---
 
-Privacy policy of truepositive.hu.
+Privacy policy of truepositive.eu.
 
 This Website collects some Personal Data from its Users.
 
@@ -13,7 +13,7 @@ Zoltán Szalontay EV
 Egres út 73.
 2000, Szentendre  
 Hungary  
-Email: zoltansz@truepositive.hu
+Email: zoltansz@truepositive.eu
 
 
 #### Types of Data collected

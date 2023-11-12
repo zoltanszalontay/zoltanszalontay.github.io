@@ -163,4 +163,4 @@ We reserve the right, at our sole discretion, to update, change or replace any p
 
 Questions about the Terms of Service should be sent to us at zoltansz@truepositive.eu.
 
-Last updated: December 21, 2019
+Last updated: November 12, 2023

@@ -1,8 +1,8 @@
-# Truepositive.hu blog
+# Truepositive.eu blog
 
 This blog is based on the code that's behind [https://takacsmark.com](https://takacsmark.com).
 
-This is the GitHub Pages repo of Truepositive.hu's blog on [https://truepositive.hu](https://truepositive.hu).
+This is the GitHub Pages repo of Truepositive.eu's blog on [https://truepositive.eu](https://truepositive.eu).
 
 The blog shows the experiences and results we got during our projects.
 

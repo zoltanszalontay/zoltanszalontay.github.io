@@ -2,7 +2,7 @@ version: '3'
 services:
     jekyll:
         image: jekyll/jekyll:3.8.3
-        container_name: truepositive-dot-hu
+        container_name: truepositive-dot-eu
         environment:
             - JEKYLL_ENV=docker
         # working on one post - use incremental mode
